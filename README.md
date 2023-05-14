@@ -1,5 +1,5 @@
 # Introducción al repositorio
-Dentro de este repositorio, está disponible todo el código utilizado en la realización de mi Trabajo Fin de Máster para el Máster de Bioinformática y Biología Computacional de la Universidad Autónoma de Madrid.
+Dentro de este repositorio está disponible todo el código utilizado en la realización de mi Trabajo Fin de Máster para el Máster de Bioinformática y Biología Computacional de la Universidad Autónoma de Madrid.
 
 Dicho esto, procedo a realizar la explicación del mismo, la cual es bastante sencilla. Encontramos cuatro carpetas llamadas "1. Pancreas", "2. Cerebro anterior", "3. Giro dentado del hipotálamo" y "4. Neutrofilos", y dentro de todas ellas encontraremos lo mismo: un fichero ".ipynb" con el código de Python necesario para llevar a cabo el análisis con Velocyto y scVelo; y un fichero ".R" en el que aparecerá el código utilizado para llevar a cabo el análisis usando los métodos de inferencia de trayectorias (*PAGA*, *PAGA_Tree*, *SCORPIUS* y *Slingshot*). 
 
