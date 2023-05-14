@@ -8,7 +8,7 @@ Dicho esto, procedo a realizar la explicación del mismo, la cual es bastante se
 Por otro lado, además de estas cuatro carpetas, también vemos que nada más entrar en el repositorio aparece un archivo con el nombre "velocyto_script.sh". Este es el *script* en el que encontramos el código que permite el uso de datos obtenidos con BD Rhapsody en Velocyto, y consta de dos partes: una primera de procesamiento, la cual es necesaria para ajustar los datos a los parametros establecidos por la herramienta, y una segunda en la que se ejecuta el comando de Velocyto propiamente dicho y que permite obtener las matrices de transcritos maduros e inmaduros.
 
 
-Lista requisitos y requerimientos para poder llevar a cabo los análisis descritos al completo
+**Lista requisitos y requerimientos para poder llevar a cabo los análisis descritos al completo**
 * R packages
   + Seurat Disk--> https://github.com/mojaveazure/seurat-disk
   + Seurat --> https://satijalab.org/seurat/articles/install.html
