@@ -34,12 +34,12 @@ else
 		echo "option 2.1"
 		BF=$(echo $barcodesfile | awk -F "/" '{print $(NF)}')
 		cut -d ',' -f 1 $barcodesfile | grep -v '#' |  sed '1d' > new_$BF
-		samtools sort -t CB -O BAM -o cellsorted_final_$BAM final_$BAMF
+		samtools sort -t CB -O BAM -o cellsorted_final_$BAM final_$BAM
 		velocyto run -b new_$BF final_$BAM $gtf
 	else
 		echo "option 2.2"
 		cut -d ',' -f 1 $barcodesfile | grep -v '#' |  sed '1d' > new_$barcodesfile
-		samtools sort -t CB -O BAM -o cellsorted_final_$BAMF final_$BAM
+		samtools sort -t CB -O BAM -o cellsorted_final_$BAM final_$BAM
 		velocyto run -b new_$barcodesfile final_$BAM $gtf
 	fi
 # To remove the noAb files, which are unnecessary: rm noAb_$BAM
